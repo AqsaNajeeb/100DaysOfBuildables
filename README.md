@@ -49,8 +49,8 @@ Here are some of the main references I’ll be using:
 
 If you’d like to collaborate, discuss ideas, or share feedback, feel free to reach out:
 
-- GitHub: <a href="[https://github.com/AqsaNajeeb]" target="_blank">Aqsa Najeeb</a> 
-- LinkedIn: <a href="[www.linkedin.com/in/aqsa-najeeb]" target="_blank">Aqsa Najeeb</a> 
+- GitHub: [Aqsa Najeeb](https://github.com/AqsaNajeeb)
+- LinkedIn: [Aqsa Najeeb](www.linkedin.com/in/aqsa-najeeb)
 
 
 ✨ This repo is more than just code — it’s my learning diary and a step towards becoming better at solving real-world problems with Machine Learning & Deep Learning.
