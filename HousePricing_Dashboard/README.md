@@ -1,57 +1,70 @@
-🎯 100 Days of Buildables – Streamlit App
+# 🚀 100 Days of Buildables – Streamlit App
 
-This folder contains my hands-on task built during my 100 Days of Buildables fellowship.
+Welcome to my **100 Days of Buildables** journey!  
 
-🚀 Current Project – Streamlit App
-🌐 Live Demo
+This folder contains one of my practical tasks: building and deploying a **Streamlit app** for data understanding, visualization, and modeling.  
 
-👉 View on Streamlit Cloud
+The main focus of this task is **House Pricing Analysis** 🏡 where I explore, clean, visualize, and model datasets interactively.
 
-📂 Repository Structure
-100DaysOfBuildables/
-│
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
+---
 
-🛠️ Getting Started
+## 🌟 What’s Inside?
 
-Follow these steps if you want to run this project locally:
+📂 Streamlit app (`app.py`) for interactive dashboards  
+🧹 Data cleaning & preprocessing (missing values, summaries)  
+📊 Built-in visualizations (histograms, scatterplots, bar charts, heatmaps)  
+⚡ Regression & Classification models (using Random Forest)  
+☁️ Deployment-ready on Streamlit Cloud  
 
-1. Clone this repository
-git clone https://github.com/AqsaNajeeb/100DaysOfBuildables.git
-cd 100DaysOfBuildables
+---
 
-2. Install dependencies
+## 🛠 Setup Instructions
 
-It’s recommended to use a virtual environment.
+To run this app locally:
 
-pip install -r requirements.txt
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/AqsaNajeeb/100DaysOfBuildables
 
-3. Run the app
-streamlit run app.py
+2. Navigate to the repository directory:
 
+   ```sh
+   cd 100DaysOfBuildables
 
-The app will open in your browser at: http://localhost:8502/
+3. Install the dependencies:
 
+   ```sh
+   pip install -r requirements.txt
 
-✅ Requirements
+4. Run the Streamlit app:
 
-Python 3.9+
+   ```sh
+   streamlit run app.py
 
-Streamlit lib
+👉 The app will open in your browser at:
+[http://localhost:8502](http://localhost:8502)
 
-Other dependencies listed in requirements.txt
+---
 
-🌟 About This Task
+## 📚 Resources
 
-This task is part of my 100 Days of Buildables journey to:
+Some key references I used while building this app:
 
-Build, deploy, and share practical apps 💻
+* [Streamlit Documentation](https://docs.streamlit.io/)
+* [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+* [Pandas Documentation](https://pandas.pydata.org/)
+* [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+* [Seaborn Documentation](https://seaborn.pydata.org/)
 
-Strengthen my coding, design, and deployment skills 🚀
+---
 
-Share open-source apps that anyone can use or extend 🔧
+## 🤝 Connect With Me
 
+If you’d like to collaborate, discuss ideas, or share feedback, feel free to reach out:
 
-✨ If you like this project, don’t forget to star ⭐ the repo!
+* GitHub: [Aqsa Najeeb](https://github.com/AqsaNajeeb)
+* LinkedIn: [Aqsa Najeeb](https://www.linkedin.com/in/aqsa-najeeb/)
+
+---
+
+✨ This task is part of my **100 Days of Buildables** journey to strengthen my coding, data science, and deployment skills 🚀 If you like this, don’t forget to star ⭐ the repo!
