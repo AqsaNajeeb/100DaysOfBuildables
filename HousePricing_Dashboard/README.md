@@ -4,7 +4,12 @@ Welcome to my **100 Days of Buildables** journey!
 
 This folder contains one of my practical tasks: building and deploying a **Streamlit app** for data understanding, visualization, and modeling.  
 
-The main focus of this task is **House Pricing Analysis** 🏡 where I explore, clean, visualize, and model datasets interactively.
+The main focus of this task is **House Pricing Analysis** 🏡, where I explore, clean, visualize, and model datasets interactively.
+
+---
+
+🌐 Live Demo
+👉 View on Streamlit Cloud: [🏡 House Pricing Dashboard](https://100daysofbuildables-cvbrvuzczprk2tc3vjvrtw.streamlit.app/)
 
 ---
 
@@ -68,3 +73,4 @@ If you’d like to collaborate, discuss ideas, or share feedback, feel free to r
 ---
 
 ✨ This task is part of my **100 Days of Buildables** journey to strengthen my coding, data science, and deployment skills 🚀 If you like this, don’t forget to star ⭐ the repo!
+
