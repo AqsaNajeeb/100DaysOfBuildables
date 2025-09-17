@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("Stroke_Prediction_Model/model.pkl")
 
 # Load actual dataset
 df = pd.read_csv("healthcare-dataset-stroke-data.csv")
