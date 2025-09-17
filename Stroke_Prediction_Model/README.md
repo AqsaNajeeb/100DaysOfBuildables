@@ -6,7 +6,7 @@ This project is part of my **100 Days of Buildables** journey, where I build pra
 
 ## 🚀 Current Project – Stroke Prediction App
 🌐 **Live Demo**  
-👉 View on Streamlit Cloud: *(Add your live demo link here)*
+👉 View on Streamlit Cloud: [🧠 Stroke Prediction System](https://100daysofbuildables-chmdsnrrmwivparml2uaaq.streamlit.app/)
 
 ---
 
@@ -118,4 +118,5 @@ If you’d like to collaborate, discuss ideas, or share feedback, feel free to r
 ✨ If you like this project, don’t forget to **star ⭐ the repo!**
 
 ```
+
 
