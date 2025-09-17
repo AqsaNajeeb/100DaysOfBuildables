@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import streamlit as st
+import os
 import pandas as pd
 import numpy as np
 import joblib
@@ -19,7 +20,10 @@ import seaborn as sns
 model = joblib.load("Stroke_Prediction_Model/model.pkl")
 
 # Load actual dataset
-df = pd.read_csv("healthcare-dataset-stroke-data.csv")
+BASE_DIR = os.path.dirname(__file__)
+csv_path = os.path.join(BASE_DIR, "healthcare-dataset-stroke-data.csv")
+df = pd.read_csv(csv_path)
+# df = pd.read_csv("healthcare-dataset-stroke-data.csv")
 
 st.set_page_config(page_title="🧠 Stroke Prediction App", layout="wide")
 
