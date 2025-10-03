@@ -1,4 +1,4 @@
-# 🍷 Wine Classification – Streamlit App
+# 🍷 Wine Classification App
 
 This task is part of my 100 Days of Buildables journey, where I build practical apps using Python and Streamlit. This app classifies wines into **3 classes** based on chemical composition features from the famous **UCI Wine dataset**.
 
@@ -6,22 +6,20 @@ This task is part of my 100 Days of Buildables journey, where I build practical 
 
 ## 🚀 Current Project – Wine Classification App
 **🌐 Live Demo**
-👉 View on Streamlit Cloud: *(Add your live demo link here)*
+
+👉 View on Streamlit Cloud: *[Wine Classification App](https://100daysofbuildables-wineclassification.streamlit.app/)*
 
 ---
 
 ## 📂 Repository Structure
 ```
-
 WineClassifierApp/
 │
 ├── task_14.py                # Main Streamlit application
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 └── Task_14.ipynb    # Jupyter Notebook with model training & analysis
-
-````
-
+```
 ---
 
 ## 🛠️ Getting Started
@@ -32,19 +30,19 @@ Follow these steps to run the project locally:
 ```sh
 git clone https://github.com/AqsaNajeeb/WineClassifierApp.git
 cd WineClassifierApp
-
+```
 2. **Install dependencies**
 
 It’s recommended to use a virtual environment:
 
 ```sh
 pip install -r requirements.txt
-
+```
 3. **Run the app**
 
 ```sh
 streamlit run task_14.py
-
+```
 
 The app will open in your browser at: [http://localhost:8501](http://localhost:8501)
 
@@ -109,5 +107,3 @@ If you’d like to collaborate, discuss ideas, or share feedback, feel free to r
 ---
 
 ✨ If you like this project, don’t forget to **star ⭐ the repo!**
-
-```
