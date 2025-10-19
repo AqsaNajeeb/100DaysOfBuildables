@@ -85,9 +85,6 @@ st.markdown("---")
 # ============================================
 # LOAD DATASET
 # ============================================
-# ============================================
-# LOAD DATASET
-# ============================================
 uploaded = st.file_uploader("📤 Upload data.csv file", type=["csv"])
 if uploaded is not None:
     data = pd.read_csv(uploaded)
@@ -105,17 +102,31 @@ y = data["diagnosis"]
 # ============================================
 # LOAD TRAINED MODEL (JOBLIB ONLY)
 # ============================================
+# ============================================
+# LOAD TRAINED MODEL (UPLOAD OR FALLBACK)
+# ============================================
 MODEL_PATH = "_model.pkl"
 
-if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) == 0:
-    st.error("⚠️ Model file '_model.pkl' not found or empty. Please train and save it first using joblib.dump().")
-    st.stop()
+uploaded_model = st.file_uploader("📤 Upload your trained model file (_model.pkl)", type=["pkl"])
 
-try:
-    model = joblib.load(MODEL_PATH)
-except Exception as e:
-    st.error(f"❌ Failed to load model file:\n\n**{e}**")
-    st.stop()
+if uploaded_model is not None:
+    try:
+        model = joblib.load(uploaded_model)
+        st.success("✅ Model uploaded and loaded successfully!")
+    except Exception as e:
+        st.error(f"❌ Failed to load uploaded model:\n\n{e}")
+        st.stop()
+else:
+    if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) == 0:
+        st.warning("⚠️ Please upload your '_model.pkl' file to continue.")
+        st.stop()
+    else:
+        try:
+            model = joblib.load(MODEL_PATH)
+            st.info("ℹ️ Loaded model from local path.")
+        except Exception as e:
+            st.error(f"❌ Failed to load model file:\n\n{e}")
+            st.stop()
 
 # ============================================
 # MODEL EVALUATION
