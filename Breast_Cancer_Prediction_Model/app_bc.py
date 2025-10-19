@@ -85,14 +85,15 @@ st.markdown("---")
 # ============================================
 # LOAD DATASET
 # ============================================
-DATA_PATH = "data.csv"
-
-if not os.path.exists(DATA_PATH):
-    st.error("⚠️ Dataset file 'data.csv' not found. Please make sure it exists in the project folder.")
+# ============================================
+# LOAD DATASET
+# ============================================
+uploaded = st.file_uploader("📤 Upload data.csv file", type=["csv"])
+if uploaded is not None:
+    data = pd.read_csv(uploaded)
+else:
+    st.warning("⚠️ Please upload your data.csv file to continue.")
     st.stop()
-
-data = pd.read_csv(DATA_PATH)
-data = data.drop(columns=[c for c in ["Unnamed: 32", "id"] if c in data.columns], errors='ignore')
 
 # Encode target if categorical
 if data["diagnosis"].dtype == "object":
